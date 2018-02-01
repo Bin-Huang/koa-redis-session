@@ -14,5 +14,8 @@
     "session"
   ],
   "author": "Ben (toHuangBin@gmail.com)",
+  "repository": {
+    "git": "git@github.com:Bin-Huang/koa-redis-session.git"
+  },
   "license": "MIT"
 }
