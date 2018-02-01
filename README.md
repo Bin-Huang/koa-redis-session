@@ -32,6 +32,8 @@ When you use `koa-session` without external session stores, the session is store
 - Session is stored on client side unencrypted
 - Browser cookies always have length limits
 
+If you every care about one of the above in your project, you should use an external session store.
+
 In addition, when you use external stores, session storage is dependent on your external store -- you can't access the session if your external store is down. Use external session stores only if necessary.
 
 refer: https://github.com/koajs/session
